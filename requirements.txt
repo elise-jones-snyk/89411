@@ -2,7 +2,7 @@ requests>=2.32.3
 jmespath>=1.0.1
 python-dateutil>=2.9.0.post0
 six>=1.16.0
-urllib3
+urllib3>=2.2.1
 app_json_file_cache>=0.2.2
 pandas
 openpyxl

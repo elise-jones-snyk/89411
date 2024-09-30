@@ -52,7 +52,7 @@
   <ItemGroup>
     <ProjectReference Include="..\EagleIntegrationService.Core\EagleIntegrationService.Core.csproj" />
   </ItemGroup>
-
+<!-- Your comment here -->
   <Target Name="CustomBeforeBuild" BeforeTargets="Build">
     <ItemGroup>
       <_FilesToCopy Include="$(ProjectDir)../../deploy/appsettings/*" />
